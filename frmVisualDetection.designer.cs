@@ -53,79 +53,79 @@
             this.trbSendDataDeadZone = new System.Windows.Forms.TrackBar();
             this.lblDeadZone = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.trbPIDKp = new System.Windows.Forms.TrackBar();
-            this.trbPIDKd = new System.Windows.Forms.TrackBar();
-            this.lblPIDKp = new System.Windows.Forms.Label();
-            this.trbPIDKi = new System.Windows.Forms.TrackBar();
-            this.lblPIDKi = new System.Windows.Forms.Label();
-            this.imageBox9 = new Emgu.CV.UI.ImageBox();
-            this.imageBox10 = new Emgu.CV.UI.ImageBox();
-            this.imageBox11 = new Emgu.CV.UI.ImageBox();
-            this.trbJogDeadzone = new System.Windows.Forms.TrackBar();
-            this.lblJogDeadzone = new System.Windows.Forms.Label();
-            this.trbK_JogSpeed = new System.Windows.Forms.TrackBar();
-            this.lblK_JogSpeed = new System.Windows.Forms.Label();
-            this.trbKd_JogSpeed = new System.Windows.Forms.TrackBar();
-            this.lblKd_JogSpeed = new System.Windows.Forms.Label();
-            this.lblPIDKd = new System.Windows.Forms.Label();
-            this.trbJogMaxSpeed = new System.Windows.Forms.TrackBar();
-            this.lblJogMaxSpeed = new System.Windows.Forms.Label();
-            this.trbJogMaxAcc = new System.Windows.Forms.TrackBar();
             this.lblJogMaxAcc = new System.Windows.Forms.Label();
+            this.trbJogMaxAcc = new System.Windows.Forms.TrackBar();
+            this.lblJogMaxSpeed = new System.Windows.Forms.Label();
+            this.trbJogMaxSpeed = new System.Windows.Forms.TrackBar();
+            this.lblPIDKd = new System.Windows.Forms.Label();
+            this.lblKd_JogSpeed = new System.Windows.Forms.Label();
+            this.trbKd_JogSpeed = new System.Windows.Forms.TrackBar();
+            this.lblK_JogSpeed = new System.Windows.Forms.Label();
+            this.trbK_JogSpeed = new System.Windows.Forms.TrackBar();
+            this.lblJogDeadzone = new System.Windows.Forms.Label();
+            this.trbJogDeadzone = new System.Windows.Forms.TrackBar();
+            this.imageBox11 = new Emgu.CV.UI.ImageBox();
+            this.imageBox10 = new Emgu.CV.UI.ImageBox();
+            this.imageBox9 = new Emgu.CV.UI.ImageBox();
+            this.lblPIDKi = new System.Windows.Forms.Label();
+            this.trbPIDKi = new System.Windows.Forms.TrackBar();
+            this.lblPIDKp = new System.Windows.Forms.Label();
+            this.trbPIDKd = new System.Windows.Forms.TrackBar();
+            this.trbPIDKp = new System.Windows.Forms.TrackBar();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.lblMinSat = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.trbMinSat = new System.Windows.Forms.TrackBar();
-            this.imageBox8 = new Emgu.CV.UI.ImageBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblThreshold = new System.Windows.Forms.Label();
-            this.imageBox4 = new Emgu.CV.UI.ImageBox();
-            this.lblHueHist = new System.Windows.Forms.Label();
-            this.imageBox3 = new Emgu.CV.UI.ImageBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.imageBox6 = new Emgu.CV.UI.ImageBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.imageBox5 = new Emgu.CV.UI.ImageBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.imageBox2 = new Emgu.CV.UI.ImageBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.imageBox1 = new Emgu.CV.UI.ImageBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.label12 = new System.Windows.Forms.Label();
-            this.trbThreshold = new System.Windows.Forms.TrackBar();
-            this.label13 = new System.Windows.Forms.Label();
             this.imageBox7 = new Emgu.CV.UI.ImageBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.trbThreshold = new System.Windows.Forms.TrackBar();
+            this.label12 = new System.Windows.Forms.Label();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.label6 = new System.Windows.Forms.Label();
+            this.imageBox1 = new Emgu.CV.UI.ImageBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.imageBox2 = new Emgu.CV.UI.ImageBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.imageBox5 = new Emgu.CV.UI.ImageBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.imageBox6 = new Emgu.CV.UI.ImageBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.imageBox3 = new Emgu.CV.UI.ImageBox();
+            this.lblHueHist = new System.Windows.Forms.Label();
+            this.imageBox4 = new Emgu.CV.UI.ImageBox();
+            this.lblThreshold = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.imageBox8 = new Emgu.CV.UI.ImageBox();
+            this.trbMinSat = new System.Windows.Forms.TrackBar();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lblMinSat = new System.Windows.Forms.Label();
             this.tabAlgorithm = new System.Windows.Forms.TabControl();
             ((System.ComponentModel.ISupportInitialize)(this.ibx1)).BeginInit();
             this.grpMode.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trbSendDataDeadZone)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKi)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbJogDeadzone)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbK_JogSpeed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbKd_JogSpeed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbJogMaxSpeed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trbJogMaxAcc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbJogMaxSpeed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbKd_JogSpeed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbK_JogSpeed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbJogDeadzone)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKp)).BeginInit();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbMinSat)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbThreshold)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbThreshold)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbMinSat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             this.tabAlgorithm.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -374,170 +374,15 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "PID";
             // 
-            // trbPIDKp
+            // lblJogMaxAcc
             // 
-            this.trbPIDKp.Location = new System.Drawing.Point(6, 29);
-            this.trbPIDKp.Maximum = 2000;
-            this.trbPIDKp.Name = "trbPIDKp";
-            this.trbPIDKp.Size = new System.Drawing.Size(246, 45);
-            this.trbPIDKp.TabIndex = 31;
-            this.trbPIDKp.Value = 1000;
-            this.trbPIDKp.Scroll += new System.EventHandler(this.trbPIDKp_Scroll);
-            // 
-            // trbPIDKd
-            // 
-            this.trbPIDKd.Location = new System.Drawing.Point(6, 131);
-            this.trbPIDKd.Maximum = 2000;
-            this.trbPIDKd.Name = "trbPIDKd";
-            this.trbPIDKd.Size = new System.Drawing.Size(246, 45);
-            this.trbPIDKd.TabIndex = 32;
-            this.trbPIDKd.Scroll += new System.EventHandler(this.trbPIDKd_Scroll);
-            // 
-            // lblPIDKp
-            // 
-            this.lblPIDKp.AutoSize = true;
-            this.lblPIDKp.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblPIDKp.Location = new System.Drawing.Point(16, 12);
-            this.lblPIDKp.Name = "lblPIDKp";
-            this.lblPIDKp.Size = new System.Drawing.Size(23, 14);
-            this.lblPIDKp.TabIndex = 33;
-            this.lblPIDKp.Text = "Kp:";
-            // 
-            // trbPIDKi
-            // 
-            this.trbPIDKi.Location = new System.Drawing.Point(6, 80);
-            this.trbPIDKi.Maximum = 2000;
-            this.trbPIDKi.Name = "trbPIDKi";
-            this.trbPIDKi.Size = new System.Drawing.Size(246, 45);
-            this.trbPIDKi.TabIndex = 35;
-            this.trbPIDKi.Scroll += new System.EventHandler(this.trbPIDKi_Scroll);
-            // 
-            // lblPIDKi
-            // 
-            this.lblPIDKi.AutoSize = true;
-            this.lblPIDKi.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblPIDKi.Location = new System.Drawing.Point(16, 63);
-            this.lblPIDKi.Name = "lblPIDKi";
-            this.lblPIDKi.Size = new System.Drawing.Size(20, 14);
-            this.lblPIDKi.TabIndex = 36;
-            this.lblPIDKi.Text = "Ki:";
-            // 
-            // imageBox9
-            // 
-            this.imageBox9.Location = new System.Drawing.Point(15, 192);
-            this.imageBox9.Name = "imageBox9";
-            this.imageBox9.Size = new System.Drawing.Size(103, 100);
-            this.imageBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox9.TabIndex = 2;
-            this.imageBox9.TabStop = false;
-            // 
-            // imageBox10
-            // 
-            this.imageBox10.Location = new System.Drawing.Point(124, 192);
-            this.imageBox10.Name = "imageBox10";
-            this.imageBox10.Size = new System.Drawing.Size(103, 100);
-            this.imageBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox10.TabIndex = 37;
-            this.imageBox10.TabStop = false;
-            // 
-            // imageBox11
-            // 
-            this.imageBox11.Location = new System.Drawing.Point(15, 302);
-            this.imageBox11.Name = "imageBox11";
-            this.imageBox11.Size = new System.Drawing.Size(103, 100);
-            this.imageBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox11.TabIndex = 38;
-            this.imageBox11.TabStop = false;
-            // 
-            // trbJogDeadzone
-            // 
-            this.trbJogDeadzone.Location = new System.Drawing.Point(245, 29);
-            this.trbJogDeadzone.Maximum = 100;
-            this.trbJogDeadzone.Name = "trbJogDeadzone";
-            this.trbJogDeadzone.Size = new System.Drawing.Size(246, 45);
-            this.trbJogDeadzone.TabIndex = 39;
-            this.trbJogDeadzone.Value = 15;
-            this.trbJogDeadzone.Scroll += new System.EventHandler(this.trbJogDeadzone_Scroll);
-            // 
-            // lblJogDeadzone
-            // 
-            this.lblJogDeadzone.AutoSize = true;
-            this.lblJogDeadzone.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblJogDeadzone.Location = new System.Drawing.Point(258, 12);
-            this.lblJogDeadzone.Name = "lblJogDeadzone";
-            this.lblJogDeadzone.Size = new System.Drawing.Size(85, 14);
-            this.lblJogDeadzone.TabIndex = 40;
-            this.lblJogDeadzone.Text = "Jog Deadzone:";
-            // 
-            // trbK_JogSpeed
-            // 
-            this.trbK_JogSpeed.Location = new System.Drawing.Point(245, 80);
-            this.trbK_JogSpeed.Maximum = 10000;
-            this.trbK_JogSpeed.Name = "trbK_JogSpeed";
-            this.trbK_JogSpeed.Size = new System.Drawing.Size(246, 45);
-            this.trbK_JogSpeed.TabIndex = 41;
-            this.trbK_JogSpeed.Value = 1416;
-            this.trbK_JogSpeed.Scroll += new System.EventHandler(this.trbK_JogSpeed_Scroll);
-            // 
-            // lblK_JogSpeed
-            // 
-            this.lblK_JogSpeed.AutoSize = true;
-            this.lblK_JogSpeed.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblK_JogSpeed.Location = new System.Drawing.Point(258, 63);
-            this.lblK_JogSpeed.Name = "lblK_JogSpeed";
-            this.lblK_JogSpeed.Size = new System.Drawing.Size(70, 14);
-            this.lblK_JogSpeed.TabIndex = 42;
-            this.lblK_JogSpeed.Text = "K JogSpeed:";
-            // 
-            // trbKd_JogSpeed
-            // 
-            this.trbKd_JogSpeed.Location = new System.Drawing.Point(245, 131);
-            this.trbKd_JogSpeed.Maximum = 10000;
-            this.trbKd_JogSpeed.Name = "trbKd_JogSpeed";
-            this.trbKd_JogSpeed.Size = new System.Drawing.Size(246, 45);
-            this.trbKd_JogSpeed.TabIndex = 43;
-            this.trbKd_JogSpeed.Value = 1826;
-            this.trbKd_JogSpeed.Scroll += new System.EventHandler(this.trbKd_JogSpeed_Scroll);
-            // 
-            // lblKd_JogSpeed
-            // 
-            this.lblKd_JogSpeed.AutoSize = true;
-            this.lblKd_JogSpeed.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblKd_JogSpeed.Location = new System.Drawing.Point(258, 111);
-            this.lblKd_JogSpeed.Name = "lblKd_JogSpeed";
-            this.lblKd_JogSpeed.Size = new System.Drawing.Size(77, 14);
-            this.lblKd_JogSpeed.TabIndex = 44;
-            this.lblKd_JogSpeed.Text = "Kd JogSpeed:";
-            // 
-            // lblPIDKd
-            // 
-            this.lblPIDKd.AutoSize = true;
-            this.lblPIDKd.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblPIDKd.Location = new System.Drawing.Point(16, 114);
-            this.lblPIDKd.Name = "lblPIDKd";
-            this.lblPIDKd.Size = new System.Drawing.Size(23, 14);
-            this.lblPIDKd.TabIndex = 34;
-            this.lblPIDKd.Text = "Kd:";
-            // 
-            // trbJogMaxSpeed
-            // 
-            this.trbJogMaxSpeed.Location = new System.Drawing.Point(245, 182);
-            this.trbJogMaxSpeed.Maximum = 600;
-            this.trbJogMaxSpeed.Name = "trbJogMaxSpeed";
-            this.trbJogMaxSpeed.Size = new System.Drawing.Size(246, 45);
-            this.trbJogMaxSpeed.TabIndex = 45;
-            this.trbJogMaxSpeed.Value = 370;
-            this.trbJogMaxSpeed.Scroll += new System.EventHandler(this.trbJogMaxSpeed_Scroll);
-            // 
-            // lblJogMaxSpeed
-            // 
-            this.lblJogMaxSpeed.AutoSize = true;
-            this.lblJogMaxSpeed.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblJogMaxSpeed.Location = new System.Drawing.Point(258, 165);
-            this.lblJogMaxSpeed.Name = "lblJogMaxSpeed";
-            this.lblJogMaxSpeed.Size = new System.Drawing.Size(89, 14);
-            this.lblJogMaxSpeed.TabIndex = 46;
-            this.lblJogMaxSpeed.Text = "Jog Max Speed:";
+            this.lblJogMaxAcc.AutoSize = true;
+            this.lblJogMaxAcc.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblJogMaxAcc.Location = new System.Drawing.Point(258, 213);
+            this.lblJogMaxAcc.Name = "lblJogMaxAcc";
+            this.lblJogMaxAcc.Size = new System.Drawing.Size(72, 14);
+            this.lblJogMaxAcc.TabIndex = 48;
+            this.lblJogMaxAcc.Text = "Jog Max Acc:";
             // 
             // trbJogMaxAcc
             // 
@@ -549,15 +394,170 @@
             this.trbJogMaxAcc.Value = 270;
             this.trbJogMaxAcc.Scroll += new System.EventHandler(this.trbJogMaxAcc_Scroll);
             // 
-            // lblJogMaxAcc
+            // lblJogMaxSpeed
             // 
-            this.lblJogMaxAcc.AutoSize = true;
-            this.lblJogMaxAcc.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblJogMaxAcc.Location = new System.Drawing.Point(258, 213);
-            this.lblJogMaxAcc.Name = "lblJogMaxAcc";
-            this.lblJogMaxAcc.Size = new System.Drawing.Size(72, 14);
-            this.lblJogMaxAcc.TabIndex = 48;
-            this.lblJogMaxAcc.Text = "Jog Max Acc:";
+            this.lblJogMaxSpeed.AutoSize = true;
+            this.lblJogMaxSpeed.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblJogMaxSpeed.Location = new System.Drawing.Point(258, 165);
+            this.lblJogMaxSpeed.Name = "lblJogMaxSpeed";
+            this.lblJogMaxSpeed.Size = new System.Drawing.Size(89, 14);
+            this.lblJogMaxSpeed.TabIndex = 46;
+            this.lblJogMaxSpeed.Text = "Jog Max Speed:";
+            // 
+            // trbJogMaxSpeed
+            // 
+            this.trbJogMaxSpeed.Location = new System.Drawing.Point(245, 182);
+            this.trbJogMaxSpeed.Maximum = 600;
+            this.trbJogMaxSpeed.Name = "trbJogMaxSpeed";
+            this.trbJogMaxSpeed.Size = new System.Drawing.Size(246, 45);
+            this.trbJogMaxSpeed.TabIndex = 45;
+            this.trbJogMaxSpeed.Value = 370;
+            this.trbJogMaxSpeed.Scroll += new System.EventHandler(this.trbJogMaxSpeed_Scroll);
+            // 
+            // lblPIDKd
+            // 
+            this.lblPIDKd.AutoSize = true;
+            this.lblPIDKd.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblPIDKd.Location = new System.Drawing.Point(16, 114);
+            this.lblPIDKd.Name = "lblPIDKd";
+            this.lblPIDKd.Size = new System.Drawing.Size(23, 14);
+            this.lblPIDKd.TabIndex = 34;
+            this.lblPIDKd.Text = "Kd:";
+            // 
+            // lblKd_JogSpeed
+            // 
+            this.lblKd_JogSpeed.AutoSize = true;
+            this.lblKd_JogSpeed.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblKd_JogSpeed.Location = new System.Drawing.Point(258, 111);
+            this.lblKd_JogSpeed.Name = "lblKd_JogSpeed";
+            this.lblKd_JogSpeed.Size = new System.Drawing.Size(77, 14);
+            this.lblKd_JogSpeed.TabIndex = 44;
+            this.lblKd_JogSpeed.Text = "Kd JogSpeed:";
+            // 
+            // trbKd_JogSpeed
+            // 
+            this.trbKd_JogSpeed.Location = new System.Drawing.Point(245, 131);
+            this.trbKd_JogSpeed.Maximum = 10000;
+            this.trbKd_JogSpeed.Name = "trbKd_JogSpeed";
+            this.trbKd_JogSpeed.Size = new System.Drawing.Size(246, 45);
+            this.trbKd_JogSpeed.TabIndex = 43;
+            this.trbKd_JogSpeed.Value = 1826;
+            this.trbKd_JogSpeed.Scroll += new System.EventHandler(this.trbKd_JogSpeed_Scroll);
+            // 
+            // lblK_JogSpeed
+            // 
+            this.lblK_JogSpeed.AutoSize = true;
+            this.lblK_JogSpeed.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblK_JogSpeed.Location = new System.Drawing.Point(258, 63);
+            this.lblK_JogSpeed.Name = "lblK_JogSpeed";
+            this.lblK_JogSpeed.Size = new System.Drawing.Size(70, 14);
+            this.lblK_JogSpeed.TabIndex = 42;
+            this.lblK_JogSpeed.Text = "K JogSpeed:";
+            // 
+            // trbK_JogSpeed
+            // 
+            this.trbK_JogSpeed.Location = new System.Drawing.Point(245, 80);
+            this.trbK_JogSpeed.Maximum = 10000;
+            this.trbK_JogSpeed.Name = "trbK_JogSpeed";
+            this.trbK_JogSpeed.Size = new System.Drawing.Size(246, 45);
+            this.trbK_JogSpeed.TabIndex = 41;
+            this.trbK_JogSpeed.Value = 1416;
+            this.trbK_JogSpeed.Scroll += new System.EventHandler(this.trbK_JogSpeed_Scroll);
+            // 
+            // lblJogDeadzone
+            // 
+            this.lblJogDeadzone.AutoSize = true;
+            this.lblJogDeadzone.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblJogDeadzone.Location = new System.Drawing.Point(258, 12);
+            this.lblJogDeadzone.Name = "lblJogDeadzone";
+            this.lblJogDeadzone.Size = new System.Drawing.Size(85, 14);
+            this.lblJogDeadzone.TabIndex = 40;
+            this.lblJogDeadzone.Text = "Jog Deadzone:";
+            // 
+            // trbJogDeadzone
+            // 
+            this.trbJogDeadzone.Location = new System.Drawing.Point(245, 29);
+            this.trbJogDeadzone.Maximum = 100;
+            this.trbJogDeadzone.Name = "trbJogDeadzone";
+            this.trbJogDeadzone.Size = new System.Drawing.Size(246, 45);
+            this.trbJogDeadzone.TabIndex = 39;
+            this.trbJogDeadzone.Value = 15;
+            this.trbJogDeadzone.Scroll += new System.EventHandler(this.trbJogDeadzone_Scroll);
+            // 
+            // imageBox11
+            // 
+            this.imageBox11.Location = new System.Drawing.Point(15, 302);
+            this.imageBox11.Name = "imageBox11";
+            this.imageBox11.Size = new System.Drawing.Size(103, 100);
+            this.imageBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox11.TabIndex = 38;
+            this.imageBox11.TabStop = false;
+            // 
+            // imageBox10
+            // 
+            this.imageBox10.Location = new System.Drawing.Point(124, 192);
+            this.imageBox10.Name = "imageBox10";
+            this.imageBox10.Size = new System.Drawing.Size(103, 100);
+            this.imageBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox10.TabIndex = 37;
+            this.imageBox10.TabStop = false;
+            // 
+            // imageBox9
+            // 
+            this.imageBox9.Location = new System.Drawing.Point(15, 192);
+            this.imageBox9.Name = "imageBox9";
+            this.imageBox9.Size = new System.Drawing.Size(103, 100);
+            this.imageBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox9.TabIndex = 2;
+            this.imageBox9.TabStop = false;
+            // 
+            // lblPIDKi
+            // 
+            this.lblPIDKi.AutoSize = true;
+            this.lblPIDKi.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblPIDKi.Location = new System.Drawing.Point(16, 63);
+            this.lblPIDKi.Name = "lblPIDKi";
+            this.lblPIDKi.Size = new System.Drawing.Size(20, 14);
+            this.lblPIDKi.TabIndex = 36;
+            this.lblPIDKi.Text = "Ki:";
+            // 
+            // trbPIDKi
+            // 
+            this.trbPIDKi.Location = new System.Drawing.Point(6, 80);
+            this.trbPIDKi.Maximum = 2000;
+            this.trbPIDKi.Name = "trbPIDKi";
+            this.trbPIDKi.Size = new System.Drawing.Size(246, 45);
+            this.trbPIDKi.TabIndex = 35;
+            this.trbPIDKi.Scroll += new System.EventHandler(this.trbPIDKi_Scroll);
+            // 
+            // lblPIDKp
+            // 
+            this.lblPIDKp.AutoSize = true;
+            this.lblPIDKp.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblPIDKp.Location = new System.Drawing.Point(16, 12);
+            this.lblPIDKp.Name = "lblPIDKp";
+            this.lblPIDKp.Size = new System.Drawing.Size(23, 14);
+            this.lblPIDKp.TabIndex = 33;
+            this.lblPIDKp.Text = "Kp:";
+            // 
+            // trbPIDKd
+            // 
+            this.trbPIDKd.Location = new System.Drawing.Point(6, 131);
+            this.trbPIDKd.Maximum = 2000;
+            this.trbPIDKd.Name = "trbPIDKd";
+            this.trbPIDKd.Size = new System.Drawing.Size(246, 45);
+            this.trbPIDKd.TabIndex = 32;
+            this.trbPIDKd.Scroll += new System.EventHandler(this.trbPIDKd_Scroll);
+            // 
+            // trbPIDKp
+            // 
+            this.trbPIDKp.Location = new System.Drawing.Point(6, 29);
+            this.trbPIDKp.Maximum = 2000;
+            this.trbPIDKp.Name = "trbPIDKp";
+            this.trbPIDKp.Size = new System.Drawing.Size(246, 45);
+            this.trbPIDKp.TabIndex = 31;
+            this.trbPIDKp.Value = 1000;
+            this.trbPIDKp.Scroll += new System.EventHandler(this.trbPIDKp_Scroll);
             // 
             // tabPage1
             // 
@@ -593,211 +593,24 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Meanshift";
             // 
-            // lblMinSat
+            // imageBox7
             // 
-            this.lblMinSat.AutoSize = true;
-            this.lblMinSat.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblMinSat.Location = new System.Drawing.Point(250, 375);
-            this.lblMinSat.Name = "lblMinSat";
-            this.lblMinSat.Size = new System.Drawing.Size(124, 14);
-            this.lblMinSat.TabIndex = 29;
-            this.lblMinSat.Text = "Minimum Saturation: ";
+            this.imageBox7.Location = new System.Drawing.Point(9, 193);
+            this.imageBox7.Name = "imageBox7";
+            this.imageBox7.Size = new System.Drawing.Size(240, 180);
+            this.imageBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox7.TabIndex = 26;
+            this.imageBox7.TabStop = false;
             // 
-            // label8
+            // label13
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label8.Location = new System.Drawing.Point(9, 376);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 14);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Threshold: ";
-            // 
-            // trackBar2
-            // 
-            this.trackBar2.Location = new System.Drawing.Point(246, 390);
-            this.trackBar2.Maximum = 100;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Size = new System.Drawing.Size(246, 45);
-            this.trackBar2.TabIndex = 28;
-            this.trackBar2.TickFrequency = 5;
-            this.trackBar2.Scroll += new System.EventHandler(this.lblMinSat_Scroll);
-            // 
-            // trbMinSat
-            // 
-            this.trbMinSat.Location = new System.Drawing.Point(246, 390);
-            this.trbMinSat.Maximum = 100;
-            this.trbMinSat.Name = "trbMinSat";
-            this.trbMinSat.Size = new System.Drawing.Size(246, 45);
-            this.trbMinSat.TabIndex = 28;
-            this.trbMinSat.TickFrequency = 5;
-            this.trbMinSat.Scroll += new System.EventHandler(this.lblMinSat_Scroll);
-            // 
-            // imageBox8
-            // 
-            this.imageBox8.Location = new System.Drawing.Point(255, 193);
-            this.imageBox8.Name = "imageBox8";
-            this.imageBox8.Size = new System.Drawing.Size(240, 180);
-            this.imageBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox8.TabIndex = 27;
-            this.imageBox8.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label9.Location = new System.Drawing.Point(250, 375);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(124, 14);
-            this.label9.TabIndex = 29;
-            this.label9.Text = "Minimum Saturation: ";
-            // 
-            // lblThreshold
-            // 
-            this.lblThreshold.AutoSize = true;
-            this.lblThreshold.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblThreshold.Location = new System.Drawing.Point(9, 376);
-            this.lblThreshold.Name = "lblThreshold";
-            this.lblThreshold.Size = new System.Drawing.Size(68, 14);
-            this.lblThreshold.TabIndex = 5;
-            this.lblThreshold.Text = "Threshold: ";
-            // 
-            // imageBox4
-            // 
-            this.imageBox4.Location = new System.Drawing.Point(255, 193);
-            this.imageBox4.Name = "imageBox4";
-            this.imageBox4.Size = new System.Drawing.Size(240, 180);
-            this.imageBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox4.TabIndex = 27;
-            this.imageBox4.TabStop = false;
-            // 
-            // lblHueHist
-            // 
-            this.lblHueHist.AutoSize = true;
-            this.lblHueHist.BackColor = System.Drawing.Color.Transparent;
-            this.lblHueHist.Font = new System.Drawing.Font("Calibri", 9F);
-            this.lblHueHist.Location = new System.Drawing.Point(9, 6);
-            this.lblHueHist.Name = "lblHueHist";
-            this.lblHueHist.Size = new System.Drawing.Size(88, 14);
-            this.lblHueHist.TabIndex = 32;
-            this.lblHueHist.Text = "Hue Histogram";
-            // 
-            // imageBox3
-            // 
-            this.imageBox3.Location = new System.Drawing.Point(9, 193);
-            this.imageBox3.Name = "imageBox3";
-            this.imageBox3.Size = new System.Drawing.Size(240, 180);
-            this.imageBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox3.TabIndex = 26;
-            this.imageBox3.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label5.Location = new System.Drawing.Point(342, 6);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 14);
-            this.label5.TabIndex = 33;
-            this.label5.Text = "Feature roundBlock Hue";
-            // 
-            // imageBox6
-            // 
-            this.imageBox6.Location = new System.Drawing.Point(345, 23);
-            this.imageBox6.Name = "imageBox6";
-            this.imageBox6.Size = new System.Drawing.Size(150, 150);
-            this.imageBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox6.TabIndex = 21;
-            this.imageBox6.TabStop = false;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label10.Location = new System.Drawing.Point(9, 6);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 14);
-            this.label10.TabIndex = 32;
-            this.label10.Text = "Hue Histogram";
-            // 
-            // imageBox5
-            // 
-            this.imageBox5.Location = new System.Drawing.Point(9, 23);
-            this.imageBox5.Name = "imageBox5";
-            this.imageBox5.Size = new System.Drawing.Size(300, 150);
-            this.imageBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox5.TabIndex = 2;
-            this.imageBox5.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label7.Location = new System.Drawing.Point(252, 176);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 14);
-            this.label7.TabIndex = 35;
-            this.label7.Text = "Saturation Image";
-            // 
-            // imageBox2
-            // 
-            this.imageBox2.Location = new System.Drawing.Point(345, 23);
-            this.imageBox2.Name = "imageBox2";
-            this.imageBox2.Size = new System.Drawing.Size(150, 150);
-            this.imageBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox2.TabIndex = 21;
-            this.imageBox2.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label11.Location = new System.Drawing.Point(342, 6);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(138, 14);
-            this.label11.TabIndex = 33;
-            this.label11.Text = "Feature roundBlock Hue";
-            // 
-            // imageBox1
-            // 
-            this.imageBox1.Location = new System.Drawing.Point(9, 23);
-            this.imageBox1.Name = "imageBox1";
-            this.imageBox1.Size = new System.Drawing.Size(300, 150);
-            this.imageBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox1.TabIndex = 2;
-            this.imageBox1.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label6.Location = new System.Drawing.Point(6, 176);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 14);
-            this.label6.TabIndex = 36;
-            this.label6.Text = "Binary Image";
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(6, 390);
-            this.trackBar1.Maximum = 255;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(246, 45);
-            this.trackBar1.TabIndex = 4;
-            this.trackBar1.TickFrequency = 5;
-            this.trackBar1.Value = 42;
-            this.trackBar1.Scroll += new System.EventHandler(this.trbThreshold_Scroll);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label12.Location = new System.Drawing.Point(252, 176);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(100, 14);
-            this.label12.TabIndex = 35;
-            this.label12.Text = "Saturation Image";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label13.Location = new System.Drawing.Point(6, 176);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(78, 14);
+            this.label13.TabIndex = 36;
+            this.label13.Text = "Binary Image";
             // 
             // trbThreshold
             // 
@@ -810,29 +623,216 @@
             this.trbThreshold.Value = 42;
             this.trbThreshold.Scroll += new System.EventHandler(this.trbThreshold_Scroll);
             // 
-            // label13
+            // label12
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 9F);
-            this.label13.Location = new System.Drawing.Point(6, 176);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(78, 14);
-            this.label13.TabIndex = 36;
-            this.label13.Text = "Binary Image";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label12.Location = new System.Drawing.Point(252, 176);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(100, 14);
+            this.label12.TabIndex = 35;
+            this.label12.Text = "Saturation Image";
             // 
-            // imageBox7
+            // trackBar1
             // 
-            this.imageBox7.Location = new System.Drawing.Point(9, 193);
-            this.imageBox7.Name = "imageBox7";
-            this.imageBox7.Size = new System.Drawing.Size(240, 180);
-            this.imageBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageBox7.TabIndex = 26;
-            this.imageBox7.TabStop = false;
+            this.trackBar1.Location = new System.Drawing.Point(6, 390);
+            this.trackBar1.Maximum = 255;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(246, 45);
+            this.trackBar1.TabIndex = 4;
+            this.trackBar1.TickFrequency = 5;
+            this.trackBar1.Value = 42;
+            this.trackBar1.Scroll += new System.EventHandler(this.trbThreshold_Scroll);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label6.Location = new System.Drawing.Point(6, 176);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 14);
+            this.label6.TabIndex = 36;
+            this.label6.Text = "Binary Image";
+            // 
+            // imageBox1
+            // 
+            this.imageBox1.Location = new System.Drawing.Point(9, 23);
+            this.imageBox1.Name = "imageBox1";
+            this.imageBox1.Size = new System.Drawing.Size(300, 150);
+            this.imageBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox1.TabIndex = 2;
+            this.imageBox1.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label11.Location = new System.Drawing.Point(342, 6);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(138, 14);
+            this.label11.TabIndex = 33;
+            this.label11.Text = "Feature roundBlock Hue";
+            // 
+            // imageBox2
+            // 
+            this.imageBox2.Location = new System.Drawing.Point(345, 23);
+            this.imageBox2.Name = "imageBox2";
+            this.imageBox2.Size = new System.Drawing.Size(150, 150);
+            this.imageBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox2.TabIndex = 21;
+            this.imageBox2.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label7.Location = new System.Drawing.Point(252, 176);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(100, 14);
+            this.label7.TabIndex = 35;
+            this.label7.Text = "Saturation Image";
+            // 
+            // imageBox5
+            // 
+            this.imageBox5.Location = new System.Drawing.Point(9, 23);
+            this.imageBox5.Name = "imageBox5";
+            this.imageBox5.Size = new System.Drawing.Size(300, 150);
+            this.imageBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox5.TabIndex = 2;
+            this.imageBox5.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label10.Location = new System.Drawing.Point(9, 6);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(88, 14);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Hue Histogram";
+            // 
+            // imageBox6
+            // 
+            this.imageBox6.Location = new System.Drawing.Point(345, 23);
+            this.imageBox6.Name = "imageBox6";
+            this.imageBox6.Size = new System.Drawing.Size(150, 150);
+            this.imageBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox6.TabIndex = 21;
+            this.imageBox6.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label5.Location = new System.Drawing.Point(342, 6);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(138, 14);
+            this.label5.TabIndex = 33;
+            this.label5.Text = "Feature roundBlock Hue";
+            // 
+            // imageBox3
+            // 
+            this.imageBox3.Location = new System.Drawing.Point(9, 193);
+            this.imageBox3.Name = "imageBox3";
+            this.imageBox3.Size = new System.Drawing.Size(240, 180);
+            this.imageBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox3.TabIndex = 26;
+            this.imageBox3.TabStop = false;
+            // 
+            // lblHueHist
+            // 
+            this.lblHueHist.AutoSize = true;
+            this.lblHueHist.BackColor = System.Drawing.Color.Transparent;
+            this.lblHueHist.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblHueHist.Location = new System.Drawing.Point(9, 6);
+            this.lblHueHist.Name = "lblHueHist";
+            this.lblHueHist.Size = new System.Drawing.Size(88, 14);
+            this.lblHueHist.TabIndex = 32;
+            this.lblHueHist.Text = "Hue Histogram";
+            // 
+            // imageBox4
+            // 
+            this.imageBox4.Location = new System.Drawing.Point(255, 193);
+            this.imageBox4.Name = "imageBox4";
+            this.imageBox4.Size = new System.Drawing.Size(240, 180);
+            this.imageBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox4.TabIndex = 27;
+            this.imageBox4.TabStop = false;
+            // 
+            // lblThreshold
+            // 
+            this.lblThreshold.AutoSize = true;
+            this.lblThreshold.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblThreshold.Location = new System.Drawing.Point(9, 376);
+            this.lblThreshold.Name = "lblThreshold";
+            this.lblThreshold.Size = new System.Drawing.Size(68, 14);
+            this.lblThreshold.TabIndex = 5;
+            this.lblThreshold.Text = "Threshold: ";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label9.Location = new System.Drawing.Point(250, 375);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(124, 14);
+            this.label9.TabIndex = 29;
+            this.label9.Text = "Minimum Saturation: ";
+            // 
+            // imageBox8
+            // 
+            this.imageBox8.Location = new System.Drawing.Point(255, 193);
+            this.imageBox8.Name = "imageBox8";
+            this.imageBox8.Size = new System.Drawing.Size(240, 180);
+            this.imageBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox8.TabIndex = 27;
+            this.imageBox8.TabStop = false;
+            // 
+            // trbMinSat
+            // 
+            this.trbMinSat.Location = new System.Drawing.Point(246, 390);
+            this.trbMinSat.Maximum = 100;
+            this.trbMinSat.Name = "trbMinSat";
+            this.trbMinSat.Size = new System.Drawing.Size(246, 45);
+            this.trbMinSat.TabIndex = 28;
+            this.trbMinSat.TickFrequency = 5;
+            this.trbMinSat.Scroll += new System.EventHandler(this.lblMinSat_Scroll);
+            // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(246, 390);
+            this.trackBar2.Maximum = 100;
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(246, 45);
+            this.trackBar2.TabIndex = 28;
+            this.trackBar2.TickFrequency = 5;
+            this.trackBar2.Scroll += new System.EventHandler(this.lblMinSat_Scroll);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 9F);
+            this.label8.Location = new System.Drawing.Point(9, 376);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(68, 14);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Threshold: ";
+            // 
+            // lblMinSat
+            // 
+            this.lblMinSat.AutoSize = true;
+            this.lblMinSat.Font = new System.Drawing.Font("Calibri", 9F);
+            this.lblMinSat.Location = new System.Drawing.Point(250, 375);
+            this.lblMinSat.Name = "lblMinSat";
+            this.lblMinSat.Size = new System.Drawing.Size(124, 14);
+            this.lblMinSat.TabIndex = 29;
+            this.lblMinSat.Text = "Minimum Saturation: ";
             // 
             // tabAlgorithm
             // 
-            this.tabAlgorithm.Controls.Add(this.tabPage1);
             this.tabAlgorithm.Controls.Add(this.tabPage2);
+            this.tabAlgorithm.Controls.Add(this.tabPage1);
             this.tabAlgorithm.Font = new System.Drawing.Font("Calibri", 9F);
             this.tabAlgorithm.Location = new System.Drawing.Point(491, 4);
             this.tabAlgorithm.Name = "tabAlgorithm";
@@ -876,31 +876,31 @@
             ((System.ComponentModel.ISupportInitialize)(this.trbSendDataDeadZone)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKi)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbJogDeadzone)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbK_JogSpeed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbKd_JogSpeed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbJogMaxSpeed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trbJogMaxAcc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbJogMaxSpeed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbKd_JogSpeed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbK_JogSpeed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbJogDeadzone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbPIDKp)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbMinSat)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trbThreshold)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbThreshold)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trbMinSat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             this.tabAlgorithm.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

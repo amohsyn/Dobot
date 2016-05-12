@@ -183,12 +183,13 @@ namespace Dobot
             label1.Text = "Y: " + (e.Y * 480 / ibx1.Height ).ToString();
         }
         private void btnGrab_Click(object sender, EventArgs e)
-        {   
-            Tranceiver.sendPacket(3,0, roundBlock.BlockCenterInImage.X, roundBlock.BlockCenterInImage.Y,
+        {
+            PointF center = environment.axis_Image2Dobot(roundBlock.BlockCenterInImage);
+            Tranceiver.sendPacket(3,0, center.X, center.Y,
                 (Convert.ToSingle(txtHeight.Text) + dobot.origin_z),
                  0,1,0,0, dobot.Target_PauseTime);
             Thread.Sleep(1000);
-            Tranceiver.sendPacket(3, 0, 300,0,(Convert.ToSingle(txtHeight.Text) + dobot.origin_z)
+            Tranceiver.sendPacket(3, 0, 310,0,(Convert.ToSingle(txtHeight.Text) + dobot.origin_z)
                 , 0, 0, 0, 0, dobot.Target_PauseTime);
             Thread.Sleep(1000);
             Tranceiver.sendPacket(3, 0, 300, 0,

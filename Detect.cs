@@ -13,7 +13,7 @@ namespace Dobot
     public partial class frmVisualDetection
     {
 
-        int HoughDetectInterval = 100;
+        int HoughDetectInterval = 10;
         bool HoughGotFlag = false;
         private Point matchTemple(Mat src, Mat temple, TemplateMatchingType type, Mat dest)
         {

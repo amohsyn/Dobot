@@ -460,7 +460,7 @@ namespace Dobot
         {
             if (WriteDraw == null)
             {
-                WriteDraw = new frmWriteDraw(this, this.visualDetection);
+                WriteDraw = new frmWriteDraw(this);
                 WriteDraw.Show();
             }
             else
